@@ -32,21 +32,19 @@ import Pom_Repo.LoginPage;
 import Pom_Repo.ValidateContactPage;
 
 //@Listeners(Generic_Utilities.ListenerImp.class)
-public class CreateContactTest extends BaseClass{
+public class CreateContactTest extends BaseClass {
 
-
-	//im pulling---->pull1
+	// im pulling---->pull1
+	//pushBack
 	@Test(groups = "regressionTest")
 	public void CreateContactTest() throws Throwable {
 
-		
 		HomePage home = new HomePage(driver);
 		home.clickContactLink();
 
 		ContactLookUpImgPage lookUp = new ContactLookUpImgPage(driver);
 		lookUp.clickLookUp();
 
-		
 		Excel_Utility elib = new Excel_Utility();
 		String firstName = elib.getExcelData("Contact", 0, 0);
 		System.out.println(firstName);
