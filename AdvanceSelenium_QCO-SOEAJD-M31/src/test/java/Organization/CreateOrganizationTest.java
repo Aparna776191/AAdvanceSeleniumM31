@@ -35,7 +35,11 @@ import Pom_Repo.ValidateOrgPage;
 
 public class CreateOrganizationTest extends BaseClass {
 
+
+	//im branch2----->regression
+
 	//im Branch1---->smoke
+
 	@Test(groups = {"smokeTest","regressionTest"})
 	public void createOrganizationTest() throws Throwable {
 
