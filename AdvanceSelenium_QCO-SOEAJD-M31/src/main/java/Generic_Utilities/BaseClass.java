@@ -53,7 +53,7 @@ public static WebDriver sdriver;
 		} else if (BROWSER.equalsIgnoreCase("edge")) {
 			driver = new EdgeDriver();
 		} else {
-			driver = new FirefoxDriver();
+			driver = new ChromeDriver();
 		}
 		System.out.println("Browser Launching");
 		
