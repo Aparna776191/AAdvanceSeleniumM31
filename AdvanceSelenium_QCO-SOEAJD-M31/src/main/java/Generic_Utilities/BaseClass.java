@@ -40,11 +40,11 @@ public static WebDriver sdriver;
 	public void BC() throws Throwable
 	{
 		//reading keys from properties file
-		File_Uitility flib = new File_Uitility();
-		String BROWSER = flib.getKeyAndValue("browser");
+		//File_Uitility flib = new File_Uitility();
+		//String BROWSER = flib.getKeyAndValue("browser");
 	
 		//reading keys from cmd prompt
-//		String BROWSER = System.getProperty("browser");
+		String BROWSER = System.getProperty("browser");
 		
 		if (BROWSER.equalsIgnoreCase("chrome")) {
 			driver = new ChromeDriver();

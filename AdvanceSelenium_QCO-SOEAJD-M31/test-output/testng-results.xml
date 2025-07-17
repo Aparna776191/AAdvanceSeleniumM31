@@ -2,48 +2,54 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-08T08:05:39 IST" name="Default suite" finished-at="2025-07-08T08:06:07 IST" duration-ms="28635">
+  <suite started-at="2025-07-17T08:04:57 IST" name="Default suite" finished-at="2025-07-17T08:05:14 IST" duration-ms="17236">
     <groups>
+      <group name="regressionTest">
+        <method signature="CreateOrganizationTest.createOrganizationTest()[pri:0, instance:Organization.CreateOrganizationTest@762ef0ea]" name="createOrganizationTest" class="Organization.CreateOrganizationTest"/>
+      </group> <!-- regressionTest -->
+      <group name="smokeTest">
+        <method signature="CreateOrganizationTest.createOrganizationTest()[pri:0, instance:Organization.CreateOrganizationTest@762ef0ea]" name="createOrganizationTest" class="Organization.CreateOrganizationTest"/>
+      </group> <!-- smokeTest -->
     </groups>
-    <test started-at="2025-07-08T08:05:39 IST" name="Default test" finished-at="2025-07-08T08:06:07 IST" duration-ms="28635">
-      <class name="product.CreateProductTest">
-        <test-method is-config="true" signature="BS()[pri:0, instance:product.CreateProductTest@5745ca0e]" started-at="2025-07-08T08:05:39 IST" name="BS" finished-at="2025-07-08T08:05:39 IST" duration-ms="22" status="PASS">
+    <test started-at="2025-07-17T08:04:57 IST" name="Default test" finished-at="2025-07-17T08:05:14 IST" duration-ms="17236">
+      <class name="Organization.CreateOrganizationTest">
+        <test-method is-config="true" signature="BS()[pri:0, instance:Organization.CreateOrganizationTest@762ef0ea]" started-at="2025-07-17T08:04:57 IST" name="BS" finished-at="2025-07-17T08:04:57 IST" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BS -->
-        <test-method is-config="true" signature="BT()[pri:0, instance:product.CreateProductTest@5745ca0e]" started-at="2025-07-08T08:05:39 IST" name="BT" finished-at="2025-07-08T08:05:39 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="BT()[pri:0, instance:Organization.CreateOrganizationTest@762ef0ea]" started-at="2025-07-17T08:04:57 IST" name="BT" finished-at="2025-07-17T08:04:57 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BT -->
-        <test-method is-config="true" signature="BC()[pri:0, instance:product.CreateProductTest@5745ca0e]" started-at="2025-07-08T08:05:39 IST" name="BC" finished-at="2025-07-08T08:05:42 IST" duration-ms="3212" status="PASS">
+        <test-method is-config="true" signature="BC()[pri:0, instance:Organization.CreateOrganizationTest@762ef0ea]" started-at="2025-07-17T08:04:57 IST" name="BC" finished-at="2025-07-17T08:04:59 IST" duration-ms="1848" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BC -->
-        <test-method is-config="true" signature="BM()[pri:0, instance:product.CreateProductTest@5745ca0e]" started-at="2025-07-08T08:05:42 IST" name="BM" finished-at="2025-07-08T08:05:48 IST" duration-ms="5826" status="PASS">
+        <test-method is-config="true" signature="BM()[pri:0, instance:Organization.CreateOrganizationTest@762ef0ea]" started-at="2025-07-17T08:04:59 IST" name="BM" finished-at="2025-07-17T08:05:02 IST" duration-ms="3157" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BM -->
-        <test-method signature="createProductTest()[pri:0, instance:product.CreateProductTest@5745ca0e]" started-at="2025-07-08T08:05:48 IST" name="createProductTest" finished-at="2025-07-08T08:06:05 IST" duration-ms="17593" status="PASS">
+        <test-method signature="createOrganizationTest()[pri:0, instance:Organization.CreateOrganizationTest@762ef0ea]" started-at="2025-07-17T08:05:02 IST" name="createOrganizationTest" finished-at="2025-07-17T08:05:13 IST" duration-ms="10762" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createProductTest -->
-        <test-method is-config="true" signature="AM()[pri:0, instance:product.CreateProductTest@5745ca0e]" started-at="2025-07-08T08:06:05 IST" name="AM" finished-at="2025-07-08T08:06:07 IST" duration-ms="1561" status="PASS">
+        </test-method> <!-- createOrganizationTest -->
+        <test-method is-config="true" signature="AM()[pri:0, instance:Organization.CreateOrganizationTest@762ef0ea]" started-at="2025-07-17T08:05:13 IST" name="AM" finished-at="2025-07-17T08:05:14 IST" duration-ms="1104" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AM -->
-        <test-method is-config="true" signature="AC()[pri:0, instance:product.CreateProductTest@5745ca0e]" started-at="2025-07-08T08:06:07 IST" name="AC" finished-at="2025-07-08T08:06:07 IST" duration-ms="367" status="PASS">
+        <test-method is-config="true" signature="AC()[pri:0, instance:Organization.CreateOrganizationTest@762ef0ea]" started-at="2025-07-17T08:05:14 IST" name="AC" finished-at="2025-07-17T08:05:14 IST" duration-ms="306" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AC -->
-        <test-method is-config="true" signature="AT()[pri:0, instance:product.CreateProductTest@5745ca0e]" started-at="2025-07-08T08:06:07 IST" name="AT" finished-at="2025-07-08T08:06:07 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="AT()[pri:0, instance:Organization.CreateOrganizationTest@762ef0ea]" started-at="2025-07-17T08:05:14 IST" name="AT" finished-at="2025-07-17T08:05:14 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AT -->
-        <test-method is-config="true" signature="AS()[pri:0, instance:product.CreateProductTest@5745ca0e]" started-at="2025-07-08T08:06:07 IST" name="AS" finished-at="2025-07-08T08:06:07 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="AS()[pri:0, instance:Organization.CreateOrganizationTest@762ef0ea]" started-at="2025-07-17T08:05:14 IST" name="AS" finished-at="2025-07-17T08:05:14 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AS -->
-      </class> <!-- product.CreateProductTest -->
+      </class> <!-- Organization.CreateOrganizationTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
